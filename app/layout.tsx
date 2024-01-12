@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "300", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Create 1xbet account",
@@ -18,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#090c2b] min-h-screen`}
+        className={`${poppins.className} bg-[#090c2b] min-h-screen`}
         suppressHydrationWarning={true}
       >
         {children}
