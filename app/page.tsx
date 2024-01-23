@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             </div>
 
             <Link
-              href="https://1xlite-579542.top/mobile?bf=24eaa31c0fa14_4521342273"
+              href="https://affpa.top/L?tag=d_1358953m_14249c_&site=1358953&ad=14249"
               className="font-bold p-3 border-2 rounded-xl border-sky-400 text-xl text-white transition-all ease duration-300 hover:text-yellow-500 "
             >
               Create account
